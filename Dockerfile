@@ -8,6 +8,7 @@ RUN pip install --upgrade pip && \
     python -m pip install requests && \
     pip install six && \
     pip install moviepy && \
+    pip install ffmpeg && \
     pip install speechrecognition pydub && \
     mkdir /output
 RUN chmod +x /input/script.sh
